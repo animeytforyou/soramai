@@ -1,0 +1,64 @@
+name: soramai
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  media_kit: ^1.1.10+1
+  media_kit_video: ^1.2.4
+  media_kit_libs_video: ^1.0.4
+  shared_preferences: ^2.2.3
+  cached_network_image: ^3.3.1
+  skeletonizer: ^1.1.2+1
+  url_launcher: ^6.2.6
+  youtube_player_flutter: ^9.0.1
+  animated_custom_dropdown: ^3.0.0
+  palette_generator: ^0.3.3+3
+  firebase_core: ^2.31.1
+  beautiful_soup_dart: ^0.3.0
+  android_intent_plus: ^5.0.2
+  process_run: ^0.14.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/mipmap-hdpi/ic_launcher.webp"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icons/mipmap-hdpi/ic_launcher_round.webp"
+  windows:
+    generate: true
+    image_path: "assets/icons/mipmap-hdpi/ic_launcher_round.webp"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icons/mipmap-hdpi/ic_launcher_round.webp"
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/

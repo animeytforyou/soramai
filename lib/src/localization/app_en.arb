@@ -1,0 +1,6 @@
+{
+  "appTitle": "soramai",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
