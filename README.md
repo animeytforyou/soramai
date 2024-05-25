@@ -2,7 +2,7 @@
 
 # Soramai
 
-AniWatch is a simple mobile application built with Flutter that allows users to watch anime episodes conveniently on their devices. With a user-friendly interface and a vast collection of anime titles, AniWatch provides an enjoyable anime viewing experience.
+Soramai is a simple mobile application built with Flutter that allows users to watch anime episodes conveniently on their devices. With a user-friendly interface and a vast collection of anime titles, Soramai provides an enjoyable anime viewing experience.
 
 ## Features
 
@@ -16,12 +16,12 @@ AniWatch is a simple mobile application built with Flutter that allows users to 
 
 ## Usage
 
-1. **Clone the Repository**: Clone the AniWatch repository to your local machine.
+1. **Clone the Repository**: Clone the Soramai repository to your local machine.
    ```bash
    git clone https://github.com/SwirX/soramai.git
    ```
 
-2. **Navigate to Project Directory**: Move into the AniWatch project directory.
+2. **Navigate to Project Directory**: Move into the Soramai project directory.
    ```bash
    cd soramai
    ```
@@ -31,23 +31,23 @@ AniWatch is a simple mobile application built with Flutter that allows users to 
    flutter pub get
    ```
 
-4. **Run the App**: Launch the AniWatch app on an emulator or physical device.
+4. **Run the App**: Launch the Soramai app on an emulator or physical device.
    ```bash
    flutter run
    ```
 
 ## Alternative: Precompiled Binaries
 
-If you prefer not to compile the source code yourself, precompiled binaries (currently only android available) are available. Simply download the binary from the [Releases](https://github.com/SwirX/soramai/releases) and install it to start using AniWatch immediately.
+If you prefer not to compile the source code yourself, precompiled binaries (currently only android available) are available. Simply download the binary from the [Releases](https://github.com/SwirX/soramai/releases) and install it to start using Soramai immediately.
 
 ## CLI Version
 
 For users who prefer a command-line interface (CLI) experience, an alternative CLI program [AniWatch-CLI](https://github.com/SwirX/aniwatch-cli) is available. It provides 
-similar functionality to AniWatch but allows users to watch anime episodes directly from the terminal.
+similar functionality to Soramai but allows users to watch anime episodes directly from the terminal.
 
 ## Contributing
 
-Contributions to AniWatch are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+Contributions to Soramai are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 ## License
 
